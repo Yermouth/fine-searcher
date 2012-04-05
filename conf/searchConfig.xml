@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Sites>	
+	 <site name="baidu">	
+	 	<status>true</status>
+		<baseUrl>http://www.baidu.com/s?</baseUrl>
+		<keyWord>wd</keyWord>
+		<encoding>gb2312</encoding>
+		<filters>
+			<filter>target</filter>
+			<filter>onmousedown</filter>
+		</filters>
+		<options>
+			<!-- 此处设置有关页数（各个搜索引擎意思都不一样）  -->
+			<option name="pn">0</option>
+		</options>
+	</site>
+	
+	<site name="soso">	
+		<status>true</status>
+		<baseUrl>http://www.soso.com/q?</baseUrl>
+		<keyWord>w</keyWord>
+		<encoding>gb2312</encoding>
+		<filters>
+			<filter>target</filter>
+			<filter>onClick</filter>
+		</filters>
+		<options>
+			<!-- 此处设置每页显示的条数  -->
+			<option name="num">10</option>
+			<!-- 此处设置有关显示的页的号码（各个搜索引擎意思都不一样）  -->
+			<option name="pg">1</option>
+		</options>
+	</site>
+	
+	<site name="youdao">	
+		<status>true</status>
+		<baseUrl>http://www.youdao.com/search?</baseUrl>
+		<keyWord>q</keyWord>
+		<encoding>utf-8</encoding>
+		<filters>
+			<filter>target</filter>
+			<filter>onmousedown</filter>
+		</filters>
+		<options>
+			<!-- 此处设置有关显示的页的号码（各个搜索引擎意思都不一样）  -->
+			<option name="start">0</option>
+		</options>
+	</site>
+	
+	<site name="sougou">	
+		<status>false</status>
+		<baseUrl> http://www.sogou.com/web?</baseUrl>
+		<keyWord>query</keyWord>
+		<encoding>gb2312</encoding>
+		<filters>
+			<filter>target</filter>
+			<filter>name</filter>
+		</filters>
+		<options>
+			<!-- 此处设置有关显示的页的号码（各个搜索引擎意思都不一样）  -->
+			<option name="page">1</option>
+		</options>
+	</site>
+        
+
+</Sites>

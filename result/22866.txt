@@ -1,0 +1,8 @@
+
+");H.push('
+'+I.title+"
+");H.push('
+[百度经验]
+');if(I.succNum>0){H.push(''+I.succNum+"")}B.innerHTML=H.join("");baidu.dom.insertBefore(B,F)}}};function getRelateExp(A){exp.getRelateExp(A)}(function(){var D=baidu.G("question-title").textContent||baidu.G("question-title").innerText||"";var C=baidu.trim(D.replace(new RegExp("\n","g"),"").replace(new RegExp("\t","g"),""));var A=/(怎样|如何|窍门|^怎么样|方法|做法|怎么办)/;var B=String(C).replace(/[^\x00-\xff]/g,"ci").length;if(A.test(C)&&B>=8&&B
+
+

@@ -6,8 +6,8 @@
 		<keyWord>wd</keyWord>
 		<encoding>gb2312</encoding>
 		<filters>
-			<filter>target</filter>
-			<filter>onmousedown</filter>
+			<attribute name="target">_blank</attribute>
+			<attribute name="onmousedown"></attribute>
 		</filters>
 		<options>
 			<!-- 此处设置有关页数（各个搜索引擎意思都不一样）  -->
@@ -21,8 +21,9 @@
 		<keyWord>w</keyWord>
 		<encoding>gb2312</encoding>
 		<filters>
-			<filter>target</filter>
-			<filter>onClick</filter>
+			<attribute name="target"></attribute>
+			<attribute name="onClick"></attribute>
+			<attribute name="class">tt tu</attribute>
 		</filters>
 		<options>
 			<!-- 此处设置每页显示的条数  -->
@@ -38,8 +39,8 @@
 		<keyWord>q</keyWord>
 		<encoding>utf-8</encoding>
 		<filters>
-			<filter>target</filter>
-			<filter>onmousedown</filter>
+			<attribute name="target"></attribute>
+			<attribute name="onmousedown"></attribute>	
 		</filters>
 		<options>
 			<!-- 此处设置有关显示的页的号码（各个搜索引擎意思都不一样）  -->
@@ -53,8 +54,8 @@
 		<keyWord>query</keyWord>
 		<encoding>gb2312</encoding>
 		<filters>
-			<filter>target</filter>
-			<filter>name</filter>
+			<attribute name="target"></attribute>
+			<attribute name="name"></attribute>
 		</filters>
 		<options>
 			<!-- 此处设置有关显示的页的号码（各个搜索引擎意思都不一样）  -->

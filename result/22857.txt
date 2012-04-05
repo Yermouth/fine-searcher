@@ -1,4 +1,0 @@
-
-'; } var nextPic = picNum+1; //设置翻页时间 theTimer=setTimeout('NextPic('+nextPic+')', 3000); }
-
-
